@@ -43,10 +43,9 @@ body{
     font-family:'Segoe UI', Arial, sans-serif;
 }
 
-/* BOOK COVER (SMALLER SIZE) */
 .book{
-    width:520px;          /* reduced width */
-    height:640px;         /* reduced height */
+    width:520px;          
+    height:640px;         
     margin:20px auto;
     position:relative;
 
@@ -60,13 +59,11 @@ body{
 
     background-size:contain;
     background-repeat:no-repeat;
-    background-position:left center;   /* PHOTO LEFT CENTER */
+    background-position:left center;   
 
     filter: brightness(1.1) contrast(1.15) saturate(1.1);
     box-shadow:0 0 25px rgba(0,0,0,0.8);
 }
-
-/* MARVEL LABEL */
 #top{
     position:absolute;
     top:22px;
@@ -79,8 +76,6 @@ body{
     color:white;
     font-size:13px;
 }
-
-/* TITLE */
 h1{
     position:absolute;
     top:95px;
@@ -92,8 +87,6 @@ h1{
     color:white;
     text-shadow:0 3px 10px rgba(0,0,0,0.9);
 }
-
-/* TAGLINE */
 h3{
     position:absolute;
     top:175px;
@@ -104,8 +97,6 @@ h3{
     color:#ffffff;
     text-shadow:0 2px 8px rgba(0,0,0,0.9);
 }
-
-/* FOOTER */
 footer{
     position:absolute;
     bottom:0;
@@ -118,8 +109,6 @@ footer{
     background:black;
     border-top:2px solid #1e90ff;
 }
-
-/* NAME BOX */
 #HASH{
     background:#0b1c2d;
     padding:6px 12px;
@@ -140,8 +129,6 @@ footer{
     font-size:13px;
     color:#4fa3ff;
 }
-
-/* PROFILE PHOTO */
 .photo{
     width:70px;
     height:70px;
